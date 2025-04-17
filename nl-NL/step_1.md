@@ -1,7 +1,7 @@
-When setting the size of an element using CSS, you might want the height or width to change depending on the size of the screen it is being viewed on.
+Bij het instellen van de grootte van een element met behulp van CSS, wil je misschien dat de hoogte of breedte wijzigt afhankelijk van de grootte van het scherm waarop het wordt bekeken.
 
-The visible area of a webpage is called the **viewport** and this will differ between devices: a phone screen is a very different size to a laptop screen, for example.
+Het zichtbare gedeelte van een webpagina wordt de **viewport** genoemd. Dit verschilt per apparaat: het scherm van een telefoon is bijvoorbeeld heel anders van formaat dan dat van een laptop.
 
-In CSS, you can use `vh` to set the size of elements relative to the **height** of the viewport. The number you put in front of `vh` is the **percentage** of the viewport height the element should take up. So `50vh` is **half** the viewport's height.
+In CSS kun je `vh` gebruiken om de grootte van elementen in te stellen ten opzichte van de **hoogte** van de viewport. Het getal dat je voor vh plaatst, is het **percentage** van de viewporthoogte dat het element moet innemen. `50vh` is dus **de helft** van de hoogte van de viewport.
 
-`vw` works the same way for the **width** of the viewport.
+`vw` werkt op dezelfde manier voor de **breedte** van de viewport.
